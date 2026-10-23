@@ -487,13 +487,7 @@
     requestAnimationFrame(frame);
   }
 
-  window.__showShape = function (idx) {
-    from = to = shapes[idx];
-    morph = 1;
-    holdUntil = performance.now() + 1e9;
-    frame(performance.now());
-  };
-  window.__showShape(0);
+   requestAnimationFrame(frame);
 })();
 </script>
 </body>
