@@ -29,3 +29,7 @@ Tech Stack
 HTML5 Canvas - Structure
 WebGL & GLSL Shaders - Rendering and visual effects
 Vanilla JavaScript - Animation and particle logic
+
+## License
+
+MIT License
